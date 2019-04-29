@@ -4,9 +4,9 @@ RUN set -ex \
     && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && echo "Asia/Shanghai" > /etc/timezone \
     && yarn config set registry https://registry.npm.taobao.org \
-    && mkdir -p /usr/src/app
+    && mkdir -p /usr/src/app/server
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/app/server
 
 EXPOSE 3000
 
