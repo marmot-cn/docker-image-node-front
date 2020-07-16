@@ -7,5 +7,3 @@ RUN set -ex \
 WORKDIR /usr/src/app/server
 
 EXPOSE 3000
-
-CMD [ "npm", "run", "start:prod" ]
