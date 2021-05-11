@@ -1,4 +1,4 @@
-FROM node:16.1.0
+FROM node:14.16.1
 
 RUN set -ex \
     && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
